@@ -48,3 +48,6 @@ ENV/
 screenshots/
 results/
 .claude/
+
+# Docs
+docs/
