@@ -69,6 +69,6 @@ Lembrar de preencher variáveis de ambiente no arquivo **.env** seguindo o forma
 ```bash
 python src/pull_prompts.py        # 1. pull do prompt semente (v1)
 python src/push_prompts.py        # 2. push público do prompt otimizado (v2)
-python src/evaluate.py            # 3. avaliar contra o dataset
-pytest tests/test_prompts.py      # 4. validar o prompt
+pytest tests/test_prompts.py      # 3. validar o prompt
+python src/evaluate.py            # 4. avaliar contra o dataset
 ```
